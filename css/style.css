@@ -3,4 +3,60 @@ body
     margin:0px;
     padding:0px;
     background-image:url("../images/bg.jpg");
+    color:white;
+}
+.left
+{
+    display: inline-block;
+    border:2px solid red;
+    position:absolute;
+    left:34px;
+    top:20px;
+}
+.mid
+{
+    display:block;
+    border:2px solid green;
+    width:51%;
+    margin:20px auto;
+}
+.right
+{
+    display: inline-block;
+    border:2px solid yellow;
+    position:absolute;
+    right:34px;
+    top:20px;
+}
+.navbar
+{
+    display:inline-block;
+    list-style:none;
+}
+.navbar li
+{
+    display:inline-block;
+    font-size:25px;
+}
+.navbar li a
+{
+    color:white;
+    text-decoration:none;
+    padding:34px 23px;
+}
+.navbar li a:hover, .navbar li a.active
+{
+    text-decoration:underline;
+    color:rgb(126, 120, 180)
+}
+.left img
+{
+    display:block;
+    width: 85px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.left div
+{
+    text-align:center;
 }
