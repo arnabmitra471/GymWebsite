@@ -70,5 +70,9 @@ body
     border-radius:10px;
     font-size:20px;
     cursor:pointer;
-
+}
+.btn:hover
+{
+    background-color:rgb(155, 121, 187);
+    color:rgb(148, 45, 45);
 }
