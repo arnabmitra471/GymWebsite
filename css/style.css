@@ -81,3 +81,11 @@ body
     background-color:rgb(155, 121, 187);
     color:rgb(148, 45, 45);
 }
+.container
+{
+    border: 2px solid rgb(121, 194, 121);
+    margin: 106px 106px;
+    padding: 75px 75px;
+    border-radius: 10px;
+    width: 30%;
+}
