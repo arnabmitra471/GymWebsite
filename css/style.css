@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@200;300&family=Ubuntu+Condensed&family=Ubuntu:wght@300;400&display=swap');
 body
 {
     margin:0px;
     padding:0px;
     background-image:url("../images/bg.jpg");
     color:white;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 .left
 {
     display: inline-block;
     border:2px solid red;
     position:absolute;
-    left:34px;
+    left:40px;
     top:20px;
 }
 .mid
@@ -59,15 +61,18 @@ body
 .left div
 {
     text-align:center;
+    line-height: 34px;
+    font-size: 18px;
 }
 .btn
 {
     margin: 0px 9px;
     color:white;
     background-color:rgb(92, 116, 57);
-    padding: 10px 12px;
+    padding: 10px 8px;
     border:4px solid grey;
     border-radius:10px;
+    font-family: 'Ubuntu Condensed', sans-serif;
     font-size:20px;
     cursor:pointer;
 }
