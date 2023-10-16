@@ -101,7 +101,14 @@ body
     font-size:25px;
     border-radius: 12px;
 }
-h1
+.container h1
 {
     text-align: center;
+}
+.container .btn
+{
+    display: block;
+    width: 60%;
+    margin: 32px auto;
+    font-weight: bold;
 }
